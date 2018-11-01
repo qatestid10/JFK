@@ -13,12 +13,12 @@ public class MainClass {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		//System.setProperty("webdriver.chrome.driver", "D:\\qatestid12\\Chrome drivers\\New folder\\chromedriver.exe");
-		//WebDriver driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "D:\\qatestid12\\Chrome drivers\\New folder\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
 		
 		
-		System.setProperty("webdriver.ie.driver", "D:\\qatestid12\\32bit\\New folder\\IEDriverServer.exe");
-		WebDriver driver = new InternetExplorerDriver();
+		//System.setProperty("webdriver.ie.driver", "D:\\qatestid12\\32bit\\New folder\\IEDriverServer.exe");
+		//WebDriver driver = new InternetExplorerDriver();
 //
 
 		driver.manage().window().maximize();
